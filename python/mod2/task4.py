@@ -4,7 +4,7 @@ try:
     if num < 0:
         print("Неверный ввод")
     else:
-        def to_base(num, base):
+        def to_base(num: int, base: int) -> str:
             digits = "0123456789ABCDEF"
             result = ""
             while num > 0:
