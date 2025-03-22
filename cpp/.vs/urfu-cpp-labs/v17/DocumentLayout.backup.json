@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9F3C47-B5DA-4808-9541-327ADD1DD294}|LabWork4_Task1\\LabWork4_Task1.vcxproj|C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F9F3C47-B5DA-4808-9541-327ADD1DD294}|LabWork4_Task1\\LabWork4_Task1.vcxproj|solutionrelative:LabWork4_Task1\\LabWork4_Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LabWork4_Task1.cpp",
+              "DocumentMoniker": "C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp",
+              "RelativeDocumentMoniker": "LabWork4_Task1\\LabWork4_Task1.cpp",
+              "ToolTip": "C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp*",
+              "RelativeToolTip": "LabWork4_Task1\\LabWork4_Task1.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-21T12:43:26.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

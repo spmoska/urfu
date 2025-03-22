@@ -1,0 +1,13 @@
+﻿  LabWork2.cpp
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(172,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(185,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(185,26): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(199,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(199,26): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(214,22): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(225,22): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(288,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(301,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(313,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Dpopo\Documents\GitHub\urfu\cpp\LabWork2\LabWork2.cpp(314,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  LabWork2.vcxproj -> C:\Users\Dpopo\Documents\GitHub\urfu\cpp\x64\Debug\LabWork2.exe
