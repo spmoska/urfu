@@ -5,7 +5,7 @@ using namespace std;
 #include <limits>
 #define N 5
 
-// Функция для вывода матрицы
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹РІРѕРґР° РјР°С‚СЂРёС†С‹
 void printMatrix(int m[N][N]) {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
@@ -16,7 +16,7 @@ void printMatrix(int m[N][N]) {
     }
 }
 
-// Функция для заполнения матрицы случайными числами от 0 до 10
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РјР°С‚СЂРёС†С‹ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё РѕС‚ 0 РґРѕ 10
 void fillMatrix(int m[N][N]) {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
@@ -25,7 +25,7 @@ void fillMatrix(int m[N][N]) {
     }
 }
 
-// Функция для нахождения минимума матрицы
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјРёРЅРёРјСѓРјР° РјР°С‚СЂРёС†С‹
 int findMinMatrix(int m[N][N]) {
     int minVal = numeric_limits<int>::max();
 
@@ -40,7 +40,7 @@ int findMinMatrix(int m[N][N]) {
     return minVal;
 }
 
-// Функция для нахождения максимума матрицы
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјР°РєСЃРёРјСѓРјР° РјР°С‚СЂРёС†С‹
 int findMaxMatrix(int m[N][N]) {
     int maxVal = numeric_limits<int>::lowest();
 
@@ -55,7 +55,7 @@ int findMaxMatrix(int m[N][N]) {
     return maxVal;
 }
 
-// Функция для нахождения максимума нижнетреугольной части
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјР°РєСЃРёРјСѓРјР° РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
 int findMaxLowerTriangle(int m[N][N]) {
     int maxVal = numeric_limits<int>::lowest();
 
@@ -70,7 +70,7 @@ int findMaxLowerTriangle(int m[N][N]) {
     return maxVal;
 }
 
-// Функция для нахождения максимума верхнетреугольной части
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјР°РєСЃРёРјСѓРјР° РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
 int findMaxUpperTriangle(int m[N][N]) {
     int maxVal = numeric_limits<int>::lowest();
 
@@ -85,7 +85,7 @@ int findMaxUpperTriangle(int m[N][N]) {
     return maxVal;
 }
 
-// Функция для нахождения минимума нижнетреугольной части
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјРёРЅРёРјСѓРјР° РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
 int findMinLowerTriangle(int m[N][N]) {
     int minVal = numeric_limits<int>::max();
 
@@ -100,7 +100,7 @@ int findMinLowerTriangle(int m[N][N]) {
     return minVal;
 }
 
-// Функция для нахождения минимума верхнетреугольной части
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјРёРЅРёРјСѓРјР° РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
 int findMinUpperTriangle(int m[N][N]) {
     int minVal = numeric_limits<int>::max();
 
@@ -115,7 +115,7 @@ int findMinUpperTriangle(int m[N][N]) {
     return minVal;
 }
 
-// Функция для нахождения минимума главной диагонали
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјРёРЅРёРјСѓРјР° РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё
 int findMinMainDiagonal(int m[N][N]) {
     int minVal = numeric_limits<int>::max();
 
@@ -128,7 +128,7 @@ int findMinMainDiagonal(int m[N][N]) {
     return minVal;
 }
 
-// Функция для нахождения максимума главной диагонали
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјР°РєСЃРёРјСѓРјР° РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё
 int findMaxMainDiagonal(int m[N][N]) {
     int maxVal = numeric_limits<int>::lowest();
 
@@ -141,7 +141,7 @@ int findMaxMainDiagonal(int m[N][N]) {
     return maxVal;
 }
 
-// Функция для нахождения минимума второй диагонали
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјРёРЅРёРјСѓРјР° РІС‚РѕСЂРѕР№ РґРёР°РіРѕРЅР°Р»Рё
 int findMinSecondaryDiagonal(int m[N][N]) {
     int minVal = numeric_limits<int>::max();
 
@@ -154,7 +154,7 @@ int findMinSecondaryDiagonal(int m[N][N]) {
     return minVal;
 }
 
-// Функция для нахождения максимума второй диагонали
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјР°РєСЃРёРјСѓРјР° РІС‚РѕСЂРѕР№ РґРёР°РіРѕРЅР°Р»Рё
 int findMaxSecondaryDiagonal(int m[N][N]) {
     int maxVal = numeric_limits<int>::lowest();
 
@@ -167,7 +167,7 @@ int findMaxSecondaryDiagonal(int m[N][N]) {
     return maxVal;
 }
 
-// Функция для вычисления среднего арифметического всех элементов матрицы
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСЂРµРґРЅРµРіРѕ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРіРѕ РІСЃРµС… СЌР»РµРјРµРЅС‚РѕРІ РјР°С‚СЂРёС†С‹
 int findAverageMatrix(int m[N][N]) {
     int sum = 0.0;
 
@@ -180,7 +180,7 @@ int findAverageMatrix(int m[N][N]) {
     return sum / (N * N);
 }
 
-// Функция для вычисления среднего арифметического нижнетреугольной части
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСЂРµРґРЅРµРіРѕ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРіРѕ РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
 int findAverageLowerTriangle(int m[N][N]) {
     int sum = 0.0, count = 0.0;
 
@@ -194,7 +194,7 @@ int findAverageLowerTriangle(int m[N][N]) {
     return sum / count;
 }
 
-// Функция для вычисления среднего арифметического верхнетреугольной части
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСЂРµРґРЅРµРіРѕ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРіРѕ РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
 int findAverageUpperTriangle(int m[N][N]) {
     int sum = 0.0, count = 0.0;
 
@@ -208,7 +208,7 @@ int findAverageUpperTriangle(int m[N][N]) {
     return sum / count;
 }
 
-// Функция для вычисления сумм строк
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСѓРјРј СЃС‚СЂРѕРє
 void findRowSums(int m[N][N], int rowSums[N]) {
     for (int i = 0; i < N; i++) {
         rowSums[i] = 0.0;
@@ -219,7 +219,7 @@ void findRowSums(int m[N][N], int rowSums[N]) {
     }
 }
 
-// Функция для вычисления сумм столбцов
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСѓРјРј СЃС‚РѕР»Р±С†РѕРІ
 void findColumnSums(int m[N][N], int colSums[N]) {
     for (int j = 0; j < N; j++) {
         colSums[j] = 0.0;
@@ -230,7 +230,7 @@ void findColumnSums(int m[N][N], int colSums[N]) {
     }
 }
 
-// Функция для нахождения минимальных значений строк
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјРёРЅРёРјР°Р»СЊРЅС‹С… Р·РЅР°С‡РµРЅРёР№ СЃС‚СЂРѕРє
 void findMinRowValues(int m[N][N], int minRowValues[N]) {
     for (int i = 0; i < N; i++) {
         minRowValues[i] = numeric_limits<int>::max();
@@ -243,7 +243,7 @@ void findMinRowValues(int m[N][N], int minRowValues[N]) {
     }
 }
 
-// Функция для нахождения минимальных значений столбцов
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјРёРЅРёРјР°Р»СЊРЅС‹С… Р·РЅР°С‡РµРЅРёР№ СЃС‚РѕР»Р±С†РѕРІ
 void findMinColumnValues(int m[N][N], int minColValues[N]) {
     for (int j = 0; j < N; j++) {
         minColValues[j] = numeric_limits<int>::max();
@@ -256,7 +256,7 @@ void findMinColumnValues(int m[N][N], int minColValues[N]) {
     }
 }
 
-// Функция для нахождения максимальных значений строк
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјР°РєСЃРёРјР°Р»СЊРЅС‹С… Р·РЅР°С‡РµРЅРёР№ СЃС‚СЂРѕРє
 void findMaxRowValues(int m[N][N], int maxRowValues[N]) {
     for (int i = 0; i < N; i++) {
         maxRowValues[i] = numeric_limits<int>::lowest();
@@ -269,7 +269,7 @@ void findMaxRowValues(int m[N][N], int maxRowValues[N]) {
     }
 }
 
-// Функция для нахождения максимальных значений столбцов
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РјР°РєСЃРёРјР°Р»СЊРЅС‹С… Р·РЅР°С‡РµРЅРёР№ СЃС‚РѕР»Р±С†РѕРІ
 void findMaxColumnValues(int m[N][N], int maxColValues[N]) {
     for (int j = 0; j < N; j++) {
         maxColValues[j] = numeric_limits<int>::lowest();
@@ -282,7 +282,7 @@ void findMaxColumnValues(int m[N][N], int maxColValues[N]) {
     }
 }
 
-// Функция для вычисления средних арифметических значений строк
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСЂРµРґРЅРёС… Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёС… Р·РЅР°С‡РµРЅРёР№ СЃС‚СЂРѕРє
 void findAverageRowValues(int m[N][N], int avgRowValues[N]) {
     for (int i = 0; i < N; i++) {
         avgRowValues[i] = 0.0;
@@ -295,7 +295,7 @@ void findAverageRowValues(int m[N][N], int avgRowValues[N]) {
     }
 }
 
-// Функция для вычисления средних арифметических значений столбцов
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСЂРµРґРЅРёС… Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёС… Р·РЅР°С‡РµРЅРёР№ СЃС‚РѕР»Р±С†РѕРІ
 void findAverageColumnValues(int m[N][N], int avgColValues[N]) {
     for (int j = 0; j < N; j++) {
         avgColValues[j] = 0.0;
@@ -308,23 +308,23 @@ void findAverageColumnValues(int m[N][N], int avgColValues[N]) {
     }
 }
 
-// Функция для вычисления сумм нижнетреугольной и верхнетреугольной частей
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСѓРјРј РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ Рё РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚РµР№
 void findTriangleSums(int m[N][N], int& lowerSum, int& upperSum) {
     lowerSum = 0.0;
     upperSum = 0.0;
 
     for (int i = 0; i < N; i++) {
-        for (int j = 0; j < i; j++) { // Нижняя треугольная часть
+        for (int j = 0; j < i; j++) { // РќРёР¶РЅСЏСЏ С‚СЂРµСѓРіРѕР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ
             lowerSum += m[i][j];
         }
 
-        for (int j = i + 1; j < N; j++) { // Верхняя треугольная часть
+        for (int j = i + 1; j < N; j++) { // Р’РµСЂС…РЅСЏСЏ С‚СЂРµСѓРіРѕР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ
             upperSum += m[i][j];
         }
     }
 }
 
-// Функция для нахождения элемента, наиболее близкого к среднему арифметическому
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ СЌР»РµРјРµРЅС‚Р°, РЅР°РёР±РѕР»РµРµ Р±Р»РёР·РєРѕРіРѕ Рє СЃСЂРµРґРЅРµРјСѓ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРјСѓ
 int findClosestToAverage(int m[N][N], int average) {
     int closestElement = m[0][0];
     int minDiff = abs(m[0][0] - average);
@@ -343,7 +343,7 @@ int findClosestToAverage(int m[N][N], int average) {
 }
 
 int main() {
-    setlocale(LC_ALL, "RU");
+    setlocale(LC_ALL, "ru_RU.utf-8");
 
     int matrix[N][N];
     int rowSums[N], colSums[N];
@@ -351,126 +351,126 @@ int main() {
     int maxRowValues[N], maxColValues[N];
     int avgRowValues[N], avgColValues[N];
 
-    // Заполнение матрицы случайными числами
+    // Р—Р°РїРѕР»РЅРµРЅРёРµ РјР°С‚СЂРёС†С‹ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё
     fillMatrix(matrix);
 
-    // Вывод матрицы
-    cout << "Матрица:" << endl;
+    // Р’С‹РІРѕРґ РјР°С‚СЂРёС†С‹
+    cout << "РњР°С‚СЂРёС†Р°:" << endl;
     printMatrix(matrix);
 
-    // 1. Минимум матрицы
-    cout << "Минимум матрицы: " << findMinMatrix(matrix) << endl;
+    // 1. РњРёРЅРёРјСѓРј РјР°С‚СЂРёС†С‹
+    cout << "РњРёРЅРёРјСѓРј РјР°С‚СЂРёС†С‹: " << findMinMatrix(matrix) << endl;
 
-    // 2. Максимум матрицы
-    cout << "Максимум матрицы: " << findMaxMatrix(matrix) << endl;
+    // 2. РњР°РєСЃРёРјСѓРј РјР°С‚СЂРёС†С‹
+    cout << "РњР°РєСЃРёРјСѓРј РјР°С‚СЂРёС†С‹: " << findMaxMatrix(matrix) << endl;
 
-    // 3. Максимум нижнетреугольной части
-    cout << "Максимум нижнетреугольной части: " << findMaxLowerTriangle(matrix) << endl;
+    // 3. РњР°РєСЃРёРјСѓРј РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
+    cout << "РњР°РєСЃРёРјСѓРј РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << findMaxLowerTriangle(matrix) << endl;
 
-    // 4. Максимум верхнетреугольной части
-    cout << "Максимум верхнетреугольной части: " << findMaxUpperTriangle(matrix) << endl;
+    // 4. РњР°РєСЃРёРјСѓРј РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
+    cout << "РњР°РєСЃРёРјСѓРј РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << findMaxUpperTriangle(matrix) << endl;
 
-    // 5. Минимум нижнетреугольной части
-    cout << "Минимум нижнетреугольной части: " << findMinLowerTriangle(matrix) << endl;
+    // 5. РњРёРЅРёРјСѓРј РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
+    cout << "РњРёРЅРёРјСѓРј РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << findMinLowerTriangle(matrix) << endl;
 
-    // 6. Минимум верхнетреугольной части
-    cout << "Минимум верхнетреугольной части: " << findMinUpperTriangle(matrix) << endl;
+    // 6. РњРёРЅРёРјСѓРј РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
+    cout << "РњРёРЅРёРјСѓРј РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << findMinUpperTriangle(matrix) << endl;
 
-    // 7. Минимум главной диагонали
-    cout << "Минимум главной диагонали: " << findMinMainDiagonal(matrix) << endl;
+    // 7. РњРёРЅРёРјСѓРј РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё
+    cout << "РњРёРЅРёРјСѓРј РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё: " << findMinMainDiagonal(matrix) << endl;
 
-    // 8. Максимум главной диагонали
-    cout << "Максимум главной диагонали: " << findMaxMainDiagonal(matrix) << endl;
+    // 8. РњР°РєСЃРёРјСѓРј РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё
+    cout << "РњР°РєСЃРёРјСѓРј РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё: " << findMaxMainDiagonal(matrix) << endl;
 
-    // 9. Минимум второй диагонали
-    cout << "Минимум второй диагонали: " << findMinSecondaryDiagonal(matrix) << endl;
+    // 9. РњРёРЅРёРјСѓРј РІС‚РѕСЂРѕР№ РґРёР°РіРѕРЅР°Р»Рё
+    cout << "РњРёРЅРёРјСѓРј РІС‚РѕСЂРѕР№ РґРёР°РіРѕРЅР°Р»Рё: " << findMinSecondaryDiagonal(matrix) << endl;
 
-    // 10. Максимум второй диагонали
-    cout << "Максимум второй диагонали: " << findMaxSecondaryDiagonal(matrix) << endl;
+    // 10. РњР°РєСЃРёРјСѓРј РІС‚РѕСЂРѕР№ РґРёР°РіРѕРЅР°Р»Рё
+    cout << "РњР°РєСЃРёРјСѓРј РІС‚РѕСЂРѕР№ РґРёР°РіРѕРЅР°Р»Рё: " << findMaxSecondaryDiagonal(matrix) << endl;
 
-    // 11. Среднее арифметическое всех элементов
+    // 11. РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РІСЃРµС… СЌР»РµРјРµРЅС‚РѕРІ
     int average = findAverageMatrix(matrix);
-    cout << "Среднее арифметическое всех элементов: " << average << endl;
+    cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РІСЃРµС… СЌР»РµРјРµРЅС‚РѕРІ: " << average << endl;
 
-    // 12. Среднее арифметическое нижнетреугольной части
-    cout << "Среднее арифметическое нижнетреугольной части: " << findAverageLowerTriangle(matrix) << endl;
+    // 12. РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
+    cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << findAverageLowerTriangle(matrix) << endl;
 
-    // 13. Среднее арифметическое верхнетреугольной части
-    cout << "Среднее арифметическое верхнетреугольной части: " << findAverageUpperTriangle(matrix) << endl;
+    // 13. РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё
+    cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << findAverageUpperTriangle(matrix) << endl;
 
-    // 14. Суммы строк
+    // 14. РЎСѓРјРјС‹ СЃС‚СЂРѕРє
     findRowSums(matrix, rowSums);
-    cout << "Суммы строк: ";
+    cout << "РЎСѓРјРјС‹ СЃС‚СЂРѕРє: ";
     for (int i = 0; i < N; i++) {
         cout << rowSums[i] << " ";
     }
     cout << endl;
 
-    // 15. Суммы столбцов
+    // 15. РЎСѓРјРјС‹ СЃС‚РѕР»Р±С†РѕРІ
     findColumnSums(matrix, colSums);
-    cout << "Суммы столбцов: ";
+    cout << "РЎСѓРјРјС‹ СЃС‚РѕР»Р±С†РѕРІ: ";
     for (int j = 0; j < N; j++) {
         cout << colSums[j] << " ";
     }
     cout << endl;
 
-    // 16. Минимальные значения строк
+    // 16. РњРёРЅРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚СЂРѕРє
     findMinRowValues(matrix, minRowValues);
-    cout << "Минимальные значения строк: ";
+    cout << "РњРёРЅРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚СЂРѕРє: ";
     for (int i = 0; i < N; i++) {
         cout << minRowValues[i] << " ";
     }
     cout << endl;
 
-    // 17. Минимальные значения столбцов
+    // 17. РњРёРЅРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚РѕР»Р±С†РѕРІ
     findMinColumnValues(matrix, minColValues);
-    cout << "Минимальные значения столбцов: ";
+    cout << "РњРёРЅРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚РѕР»Р±С†РѕРІ: ";
     for (int j = 0; j < N; j++) {
         cout << minColValues[j] << " ";
     }
     cout << endl;
 
-    // 18. Максимальные значения строк
+    // 18. РњР°РєСЃРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚СЂРѕРє
     findMaxRowValues(matrix, maxRowValues);
-    cout << "Максимальные значения строк: ";
+    cout << "РњР°РєСЃРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚СЂРѕРє: ";
     for (int i = 0; i < N; i++) {
         cout << maxRowValues[i] << " ";
     }
     cout << endl;
 
-    // 19. Максимальные значения столбцов
+    // 19. РњР°РєСЃРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚РѕР»Р±С†РѕРІ
     findMaxColumnValues(matrix, maxColValues);
-    cout << "Максимальные значения столбцов: ";
+    cout << "РњР°РєСЃРёРјР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚РѕР»Р±С†РѕРІ: ";
     for (int j = 0; j < N; j++) {
         cout << maxColValues[j] << " ";
     }
     cout << endl;
 
-    // 20. Средние арифметические значения строк
+    // 20. РЎСЂРµРґРЅРёРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚СЂРѕРє
     findAverageRowValues(matrix, avgRowValues);
-    cout << "Средние арифметические значения строк: ";
+    cout << "РЎСЂРµРґРЅРёРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚СЂРѕРє: ";
     for (int i = 0; i < N; i++) {
         cout << avgRowValues[i] << " ";
     }
     cout << endl;
 
-    // 21. Средние арифметические значения столбцов
+    // 21. РЎСЂРµРґРЅРёРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚РѕР»Р±С†РѕРІ
     findAverageColumnValues(matrix, avgColValues);
-    cout << "Средние арифметические значения столбцов: ";
+    cout << "РЎСЂРµРґРЅРёРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ Р·РЅР°С‡РµРЅРёСЏ СЃС‚РѕР»Р±С†РѕРІ: ";
     for (int j = 0; j < N; j++) {
         cout << avgColValues[j] << " ";
     }
     cout << endl;
 
-    // 22. Суммы нижнетреугольной и верхнетреугольной частей
+    // 22. РЎСѓРјРјС‹ РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ Рё РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚РµР№
     int lowerSum, upperSum;
     findTriangleSums(matrix, lowerSum, upperSum);
-    cout << "Сумма нижнетреугольной части: " << lowerSum << endl;
-    cout << "Сумма верхнетреугольной части: " << upperSum << endl;
+    cout << "РЎСѓРјРјР° РЅРёР¶РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << lowerSum << endl;
+    cout << "РЎСѓРјРјР° РІРµСЂС…РЅРµС‚СЂРµСѓРіРѕР»СЊРЅРѕР№ С‡Р°СЃС‚Рё: " << upperSum << endl;
 
-    // 23. Элемент, наиболее близкий к среднему арифметическому
+    // 23. Р­Р»РµРјРµРЅС‚, РЅР°РёР±РѕР»РµРµ Р±Р»РёР·РєРёР№ Рє СЃСЂРµРґРЅРµРјСѓ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРјСѓ
     int closestElement = findClosestToAverage(matrix, average);
-    cout << "Элемент, наиболее близкий к среднему арифметическому: " << closestElement << endl;
+    cout << "Р­Р»РµРјРµРЅС‚, РЅР°РёР±РѕР»РµРµ Р±Р»РёР·РєРёР№ Рє СЃСЂРµРґРЅРµРјСѓ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРјСѓ: " << closestElement << endl;
 
     return 0;
 }

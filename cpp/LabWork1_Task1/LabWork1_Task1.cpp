@@ -1,30 +1,28 @@
 #include <iostream>
-#include <locale>
 
-// Функция power для вычисления x^n
+// Р¤СѓРЅРєС†РёСЏ power РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ x^n
 int power(int base, int exponent) {
-    int result = 1; // Инициализируем результат как 1
+    int result = 1; // РРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј СЂРµР·СѓР»СЊС‚Р°С‚ РєР°Рє 1
 
     for (int i = 1; i <= exponent; i++) {
-        result *= base; // Умножаем result на base exponent раз
+        result *= base; // РЈРјРЅРѕР¶Р°РµРј result РЅР° base exponent СЂР°Р·
     }
 
     return result;
 }
 
 int main() {
-    std::setlocale(LC_ALL, "Russian");
 
     int base, exponent;
 
-    // Запрос у пользователя значения основания и показателя степени
+    // Р—Р°РїСЂРѕСЃ Сѓ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ Р·РЅР°С‡РµРЅРёСЏ РѕСЃРЅРѕРІР°РЅРёСЏ Рё РїРѕРєР°Р·Р°С‚РµР»СЏ СЃС‚РµРїРµРЅРё
     std::cout << "Enter base: ";
     std::cin >> base;
 
     std::cout << "Enter exponent: ";
     std::cin >> exponent;
 
-    // Вызов функции power и вывод результата
+    // Р’С‹Р·РѕРІ С„СѓРЅРєС†РёРё power Рё РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
     int result = power(base, exponent);
     std::cout << base << "^" << exponent << " = " << result << std::endl;
 

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F3C47-B5DA-4808-9541-327ADD1DD294}|LabWork4_Task1\\LabWork4_Task1.vcxproj|C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1F9F3C47-B5DA-4808-9541-327ADD1DD294}|LabWork4_Task1\\LabWork4_Task1.vcxproj|solutionrelative:LabWork4_Task1\\LabWork4_Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4C4DACD4-6143-4565-AC46-F745CF47CC84}|LabWork4_Task1\\LabWork4_Task1.vcxproj|C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4C4DACD4-6143-4565-AC46-F745CF47CC84}|LabWork4_Task1\\LabWork4_Task1.vcxproj|solutionrelative:LabWork4_Task1\\LabWork4_Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,9 +22,9 @@
               "Title": "LabWork4_Task1.cpp",
               "DocumentMoniker": "C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp",
               "RelativeDocumentMoniker": "LabWork4_Task1\\LabWork4_Task1.cpp",
-              "ToolTip": "C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp*",
-              "RelativeToolTip": "LabWork4_Task1\\LabWork4_Task1.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dpopo\\Documents\\GitHub\\urfu\\cpp\\LabWork4_Task1\\LabWork4_Task1.cpp",
+              "RelativeToolTip": "LabWork4_Task1\\LabWork4_Task1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-21T12:43:26.761Z",
               "EditorCaption": ""

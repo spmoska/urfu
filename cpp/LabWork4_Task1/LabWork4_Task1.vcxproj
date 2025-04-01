@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1f9f3c47-b5da-4808-9541-327add1dd294}</ProjectGuid>
+    <ProjectGuid>{4c4dacd4-6143-4565-ac46-f745cf47cc84}</ProjectGuid>
     <RootNamespace>LabWork4Task1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
